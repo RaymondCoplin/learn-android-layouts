@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="50dp"
+    android:gravity="center"
+    tools:context=".MainActivity">
+
+    <Button
+        android:id="@+id/linearLayoutVertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="Linear Layout Vertical"
+        android:onClick="goActivity"/>
+
+    <Button
+        android:id="@+id/linearLayoutHorizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="Linear Layout Horizontal"
+        android:onClick="goActivity"/>
+
+    <Button
+        android:id="@+id/relativeLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="Relative Layout"
+        android:onClick="goActivity"/>
+
+    <Button
+        android:id="@+id/tableLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="Table Layout"
+        android:onClick="goActivity"/>
+
+    <Button
+        android:id="@+id/frameLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="Frame Layout"
+        android:onClick="goActivity"/>
+
+    <Button
+        android:id="@+id/listViewLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="List View"
+        android:onClick="goActivity"/>
+
+    <Button
+        android:id="@+id/gridViewLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="Grid View"
+        android:onClick="goActivity"/>
+
+    <Button
+        android:id="@+id/CustomUserListView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="Custom Users Adapter | List View"
+        android:onClick="goActivity"/>
+
+</LinearLayout>

@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">My Application</string>
+    <string name="first_name">Raymond A. Coplin Caceres</string>
+    <string name="university">Universidad APEC</string>
+    <string name="quote">Hello World !</string>
+    <string name="title_activity_linear_layout_vertical">LinearLayoutVertical</string>
+</resources>
